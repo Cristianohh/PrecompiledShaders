@@ -40,7 +40,7 @@
 #include "timer.h"
 #include "fonts.h"
 
-#define CUBE_ROW_NUM 5
+#define CUBE_ROW_NUM 10
 #define CUBE_COL_NUM 10
 
 static model_t* cube_model[CUBE_ROW_NUM][CUBE_COL_NUM] = { NULL };
