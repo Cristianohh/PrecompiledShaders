@@ -1,0 +1,97 @@
+{
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false,
+    "indent_to_bracket": true,
+    "folders":
+    [
+        {
+            "path": "..",
+            "file_exclude_patterns":
+            [
+                "*.d",
+                "*.o",
+                "*.a",
+                "*.sublime-workspace"
+            ],
+            "folder_exclude_patterns" :
+            [
+                "bin",
+                "obj",
+                "libs",
+                "gen"
+            ]
+        }
+    ],
+    "build_systems":
+    [
+        {
+            "name" : "Project",
+            "cmd": ["make"],
+            "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+            "working_dir": "${project_path}/android",
+            "selector": "source.makefile",
+
+            "variants":
+            [
+                {
+                    "name": "Clean",
+                    "cmd": ["make", "clean"]
+                },
+                {
+                    "name": "Run",
+                    "cmd": ["make", "run"]
+                },
+                {
+                    "name": "Kill",
+                    "cmd": ["make", "kill"]
+                }
+            ]
+        },
+        {
+            "name" : "Emulator",
+            "cmd": ["make", "TARGET_DEVICE=-e"],
+            "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+            "working_dir": "${project_path}/android",
+            "selector": "source.makefile",
+
+            "variants":
+            [
+                {
+                    "name": "Clean",
+                    "cmd": ["make", "clean", "TARGET_DEVICE=-e"]
+                },
+                {
+                    "name": "Run",
+                    "cmd": ["make", "run", "TARGET_DEVICE=-e"]
+                },
+                {
+                    "name": "Kill",
+                    "cmd": ["make", "kill", "TARGET_DEVICE=-e"]
+                }
+            ]
+        },
+        {
+            "name" : "Device",
+            "cmd": ["make", "TARGET_DEVICE=-d"],
+            "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+            "working_dir": "${project_path}/android",
+            "selector": "source.makefile",
+
+            "variants":
+            [
+                {
+                    "name": "Clean",
+                    "cmd": ["make", "clean", "TARGET_DEVICE=-d"]
+                },
+                {
+                    "name": "Run",
+                    "cmd": ["make", "run", "TARGET_DEVICE=-d"]
+                },
+                {
+                    "name": "Kill",
+                    "cmd": ["make", "kill", "TARGET_DEVICE=-d"]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,231 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cur",
+				"currVal"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/system_android.cpp",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/shader.cpp",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/App.cpp",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/jni/AndroidAppJNI.cpp",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/model.h",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/model.cpp",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/src/com/intel/instancing/InstancingMain.java",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/jni/Application.mk",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/assets/shaders/cube.shader",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/shader.h",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/assets/shaders/cube.fs.glsl",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/assets/shaders/cube.vs.glsl",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/App.h",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/opengl.h",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/assets/shaders/cube.glsl",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/src/system.h",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/src/com/intel/instancing/InstancingLib.java",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/jni/Android.mk",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/src/com/intel/instancing/InstancingView.java",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/AndroidManifest.xml",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/android/res/layout/main.xml",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/instancing-sample.sublime-project",
+		"/Users/LordEarth/Documents/Development/Work/Instancing/projects/instancing.sublime-project",
+		"/Users/LordEarth/Documents/Development/Frameworks/Box2D_v2.2.1/Testbed/Framework/Test.cpp",
+		"/Users/LordEarth/Documents/Development/Frameworks/Box2D_v2.2.1/Testbed/Tests/TestEntries.cpp",
+		"/Users/LordEarth/Documents/Development/Frameworks/Box2D_v2.2.1/Testbed/Tests/FrictionSection.h",
+		"/Users/LordEarth/Documents/Development/Frameworks/Box2D_v2.2.1/Testbed/Tests/BodySection.h",
+		"/Users/LordEarth/Documents/Development/Frameworks/Box2D_v2.2.1/Testbed/Framework/Test.h",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/src/system_android.cpp",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/src/textureLoad/texture.h",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/src/opengl.h",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/src/system.h",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/projects/android/src/com/intel/samples/AndroidAppActivity.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/projects/android/jni/AndroidAppJNI.cpp",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/projects/android/src/com/intel/samples/AndroidAppView.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/.gitignore",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/projects/android/src/com/intel/samples/Accelerometer.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/src/App.h",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3UX/src/SOIL2/SOIL2.c",
+		"/Users/LordEarth/Documents/Development/Android/OpenGLES3UX/projects/android/.gitignore",
+		"/Users/LordEarth/Documents/Development/Android/OpenGLES3UX/projects/android/.classpath",
+		"/Users/LordEarth/Documents/Development/Templates/deferred_gles-master/projects/android/src/com/intel/deferredgles/DeferredGLES.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/src/com/intel/opengles3sample/Accelerometer.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/src/com/intel/opengles3sample/Rotation.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/src/com/intel/opengles3sample/AndroidAppActivity.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/src/com/intel/opengles3sample/AndroidAppView.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/AndroidManifest.xml",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/jni/AndroidAppJNI.cpp",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/src/com/intel/opengles3sample/MainActivity.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/.gitignore",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/jni/jni.cpp",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/projects/android/src/com/intel/opengles3sample/OpenGLES30Activity.java",
+		"/Users/LordEarth/Documents/Development/Work/OpenGLES3Sample/TODO",
+		"/usr/local/git/etc/gitconfig",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/src/App2.cpp",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/assets/shaders/gridShader1.shader",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/src/App.h",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/src/widget.h",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/src/widget.cpp",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/src/App1.cpp",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/assets/shaders/slopeShader.shader",
+		"/Users/LordEarth/Documents/Development/Android/SES_LAB/projects/android/AndroidManifest.xml",
+		"/Users/LordEarth/Documents/Development/Program/messing.cpp",
+		"/Users/LordEarth/Documents/Development/Program/iterBinarySearch.cpp",
+		"/Users/LordEarth/Documents/Development/Android/OpenGLES3SampleApp/android/jni/Android.mk",
+		"/Users/LordEarth/Documents/Development/Android/OpenGLES3SampleApp/src/App.cpp",
+		"/Users/LordEarth/Documents/Development/Android/OpenGLES3Sample/projects/sample.sublime-project",
+		"/Users/LordEarth/Documents/Development/Android/OpenGLES3Sample/projects/opengles3sample.sublime-project",
+		"/Users/LordEarth/Documents/Development/Android/gles3jni/projects/gles3.sublime-project",
+		"/Users/LordEarth/Downloads/apache-ant-1.9.2/INSTALL",
+		"/Users/LordEarth/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/LordEarth/Documents/Development/Program/if.cpp",
+		"/Users/LordEarth/Desktop/main.cpp",
+		"/Users/LordEarth/Documents/Development/Templates/deferred_gles-master/projects/android/vs.glsl",
+		"/Users/LordEarth/Documents/Development/Samples/Superbible 6/sb6code_2013_10_11/src/phonglighting/phonglighting.cpp",
+		"/Users/LordEarth/Documents/Development/Samples/Superbible 6/sb6code_2013_10_11/HOWTOBUILD.txt",
+		"/Users/LordEarth/Documents/Development/Samples/Superbible 6/sb6code_2013_10_11/README"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"600",
+			"initShader",
+			"shader",
+			"g_grass",
+			"SetAssetManager",
+			"asset",
+			"First",
+			"gles2",
+			"GLES2",
+			"R",
+			"accelrom",
+			"AndroidAppActivity",
+			"particleson",
+			"ndk_proj",
+			"ndk_pro"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"5"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true
+}

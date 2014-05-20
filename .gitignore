@@ -1,0 +1,14 @@
+# no .DS_Store files
+.DS_Store
+# no .o files
+*.o
+# no .a files
+*.a
+# ignore all files in the projects/android/bin/ directory
+projects/android/bin/
+# ignore all files in the projects/android/gen/ directory
+projects/android/gen/
+# ignore all files in the projects/android/libs/ directory
+projects/android/libs/
+# ignore all files in the projects/android/obj/ directory
+projects/android/obj/
